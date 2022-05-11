@@ -55,24 +55,6 @@ minecraft {
 				}
 			}
 		}
-		
-		data {
-			workingDirectory project.file('run')
-			
-			property 'forge.logging.markers', 'REGISTRIES'
-			property 'forge.logging.console.level', 'debug'
-			
-			args '--mod', 'slabgenbop', '--all',
-					'--existing', file('src/main/resources/').toString(),
-					'--existing', file('src/generated/resources/').toString(),
-					'--output', file('src/generated/resources/')
-			
-			mods {
-				slabgenbop {
-					source sourceSets.main
-				}
-			}
-		}
 	}
 }
 
