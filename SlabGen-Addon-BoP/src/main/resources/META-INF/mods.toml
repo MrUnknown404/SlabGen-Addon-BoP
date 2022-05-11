@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License v3.0"
+issueTrackerURL="https://github.com/MrUnknown404/SlabGen-Addon-BoP/issues"
+
+[[mods]]
+modId="slabgenbop"
+version="1.0.0"
+displayName="SlabGen Addon [BoP]"
+displayURL="https://github.com/MrUnknown404/SlabGen-Addon-BoP"
+#logoFile="examplemod.png"
+credits=""
+authors="-Unknown-"
+description='''
+Addon for SlabGen to add Biomes o' Plenty support
+'''
+
+[[dependencies.slabgenbop]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.slabgenbop]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.slabgenbop]]
+    modId="slabgen"
+    mandatory=true
+    versionRange="[1.5.1,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.slabgenbop]]
+    modId="biomesoplenty"
+    mandatory=true
+    versionRange="[1.16.5-13.1.0.477,)"
+    ordering="AFTER"
+    side="BOTH"
